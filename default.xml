@@ -2,6 +2,6 @@
     <remote name='lib' fetch="https://github.com/vshijing/lib.git"/>
     <remote name="device" fetch="https://github.com/vshijing/device.git"/>
     <default revision="master" remote="lib" sync-j="4"/>
-    <project path="public_library" name="lib" remote="lib"/>
-    <project path="device_tests" name="device" remote="device"/>
+    <project name="lib" remote="lib"/>
+    <project name="device" remote="device"/>
 </manifest>
