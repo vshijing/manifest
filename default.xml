@@ -1,6 +1,6 @@
 <manifest>
     <remote name='lib' fetch="https://github.com/vshijing/lib.git"/>
-    <remote name="'device" fetch="https://github.com/vshijing/device.git"/>
+    <remote name="device" fetch="https://github.com/vshijing/device.git"/>
     <default revision="master" remote="lib" sync-j="4"/>
     <default revision="master" remote="device" sync-j="4"/>
     <project path="public_library" name="lib" remote="lib"/>
